@@ -1,0 +1,8 @@
+package com.oneclick;
+
+public class Vechile {
+
+	public void fun1() {
+		System.out.println("journy start ......");
+	}
+}

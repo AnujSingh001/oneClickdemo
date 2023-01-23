@@ -1,0 +1,22 @@
+package com.oneclick;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class A {
+
+	@Autowired
+	private B b1;
+	
+	@Autowired
+	private Student s1;
+	
+	public void funA() {
+		System.out.println("Inside the funA of A");
+		System.out.println(b1);
+		System.out.println(s1);
+	}
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.oneclick.dao;
+
+public class PresentationBean {
+
+}

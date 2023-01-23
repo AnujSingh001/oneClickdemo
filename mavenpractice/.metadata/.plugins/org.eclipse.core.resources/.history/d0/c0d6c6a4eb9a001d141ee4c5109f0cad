@@ -1,0 +1,5 @@
+package com.oneclick.model;
+
+public class Student {
+
+}

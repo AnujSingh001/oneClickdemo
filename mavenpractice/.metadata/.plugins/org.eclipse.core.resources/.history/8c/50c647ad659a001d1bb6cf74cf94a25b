@@ -1,0 +1,42 @@
+package com.oneclick.controller;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyController {
+	
+	@RequestMapping("/welcome")
+	
+	public String myService() {
+		return "Welcome to Spring Boot";
+	}
+	
+	@RequestMapping("/student")
+	public Student getStudent() {
+		
+		Student s1=new Student(1,"Arpit",500);
+		return s1;
+	}
+	
+	
+	@RequestMapping("/students")
+	public List<Student> getAllStudent(){
+		List<Student> list=Arrays.asList(
+				new Student(1,"Anuj",678),
+				new Student(2,"Rahul",778),
+				new Student(3,"Neeraj",578),
+				new Student(4,"Mandeep",600),
+				new Student(5,"Robin",700)
+				);
+		
+		return list;
+	}
+	
+
+}

@@ -1,0 +1,57 @@
+package com.day4.usecases;
+
+import java.util.Scanner;
+
+import com.dat4.model.Account;
+import com.masai.dao.AccountDao;
+import com.masai.dao.AccountImpl;
+
+public class DepositeUsecase {
+	
+	public static void main(String[] args) {
+		//******************DEPOSITE AMOUNT********************
+//		
+//		AccountDao accdao=new AccountImpl();		
+//		Scanner sc= new Scanner(System.in);
+//		System.out.println("Enter Account number.....");
+//		int accno=sc.nextInt();
+//		
+//		Account acc1=accdao.findAccount(accno);
+//		
+//		if(acc1==null) {
+//			System.out.println("Account not found...");
+//		}else {
+//			System.out.println("Enter the amount to Deposite.....");
+//			int amt=sc.nextInt();
+//			
+//			acc1.setBalance(acc1.getBalance()+amt);
+//			
+//			boolean f=accdao.updateAccount(acc1);
+//			
+//			if(f) {
+//				System.out.println("Deposite sucessfully.....");
+//			}else {
+//				System.out.println("Technical error....");
+//			}
+//		}
+		
+		//****************CREATE ACCOUNT*********************
+		
+		
+		AccountDao accdao=new AccountImpl();
+		
+		Account acc1=new Account();
+		acc1.setName("pardeep");
+		acc1.setBalance(3000);
+		
+		boolean flag=accdao.createAccount(acc1);
+		
+		if(flag) {
+			
+			System.out.println("Account created");
+		}else {
+			System.out.println("Not created.....");
+		}
+}
+
+}

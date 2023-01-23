@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Anuj\Desktop\mavenpractice\associatemismatchOneToMany"/>
+			<item value="C:\Users\Anuj\Desktop\mavenpractice\oneclickapp1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.oneclick"/>
+			<item value="com.click.day6_2"/>
+			<item value="com.click.day6"/>
+			<item value="com.1click"/>
+			<item value="com.day4"/>
+			<item value="com.clickcapital"/>
+			<item value="day3hibernate"/>
+			<item value="com.tejibai"/>
+			<item value="com.masai"/>
+			<item value="com.google"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="springapp2"/>
+			<item value="springcoreapp1"/>
+			<item value="day7"/>
+			<item value="associatemismatchMantToOne"/>
+			<item value="associatemismatch"/>
+			<item value="day6"/>
+			<item value="mismatch"/>
+			<item value="day4"/>
+			<item value="clickcapital"/>
+			<item value="day3"/>
+			<item value="oneclick"/>
+			<item value="Teji"/>
+			<item value="hibernateapp1"/>
+			<item value="mavanapp1"/>
+			<item value="oneclickapp1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
